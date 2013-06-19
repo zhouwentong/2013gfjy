@@ -158,7 +158,9 @@ body{background:#EAE8E9;}
 .ma .h{height:30px; line-height:30px;}
 .ma h2{color:#323232; font-size:16px;}
 .m3 .hr{position:absolute; top:0; right:0;}
+.m3 .hr a{background:url(../img/m3-more.png) no-repeat; width:138px; height:30px; text-indent:-999em; display:block;}
 .ma .b{padding:5px 0;}
+.ma li{height:26px; overflow:hidden;}
 .m li{line-height:26px;}
 .mb .h{background:url(../img/mb-h.png) no-repeat; height:55px; line-height:55px;}
 .mb h2{font-size:24px; color:#CB0000; font-family:'微软雅黑'; padding-left:93px;}
@@ -179,6 +181,7 @@ body{background:#EAE8E9;}
 .md .h{background:url(../img/md-h.png) no-repeat; height:34px; line-height:34px;}
 .md h2{font-size:16px; color:#335D61; font-weight:normal; padding-left:10px;}
 .md .hr{right:18px;}
+.md li{height:26px; overflow:hidden;}
 /*-------------------头条m1--------------------------*/
 .m1{border:1px solid #DCDCDC; text-align:center; padding:10px 0; margin-bottom:8px;}
 .m1 h2{font-size:34px; font-family:'微软雅黑'; height:62px; line-height:62px; }
@@ -194,11 +197,12 @@ body{background:#EAE8E9;}
 .m6 .h{background:url(../img/m6-h.png) no-repeat;}
 .m6 h2{padding-left:45px;}
 .m6 .br1{background:#456842; padding:16px 7px 7px; margin-bottom:5px;}
-.m6 li{line-height:24px; font-size:12px; background:url(../img/m6-li.png) no-repeat left center; padding-left:25px;}
+.m6 li{line-height:24px; height:24px; overflow:hidden; font-size:12px; background:url(../img/m6-li.png) no-repeat left 6px; padding-left:25px;}
 /*-------------------厦门征兵m7--------------------------*/
 .m7 .h{background:url(../img/m7-h.png) no-repeat;}
 .m7 h2{padding-left:50px;}
 .m7 .b{padding-top:10px;}
+.m7 li{height:26px; overflow:hidden;}
 /*-------------------专题播放m8--------------------------*/
 .m8 .h{background:url(../img/m8-h.png) no-repeat;}
 .m8 h2{padding-left:47px;}
@@ -218,6 +222,7 @@ body{background:#EAE8E9;}
 .m9 p{line-height:26px;}
 .m9 p a{color:#BA2636;}
 .m9 .l2{background:url(../img/m9-l2.png) no-repeat; height:43px; padding:8px 0 0 29px; color:#fff; font-size:16px;}
+.m9 li{height:26px; overflow:hidden;}
 /*-------------------模块m10--------------------------*/
 .carousel-container {
   position:relative;
@@ -305,10 +310,13 @@ body{background:#EAE8E9;}
 .m11 h2{padding-left:14px; color:#fff; line-height:22px;}
 /*-------------------新闻动态m12--------------------------*/
 .m12{margin-bottom:18px;}
+.m12 li{height:26px; overflow:hidden;}
 /*-------------------大家在说m13--------------------------*/
 .m13 .h{background:url(../img/m13-h.png) no-repeat; height:34px;}
 .m13 h2{padding-left:14px; color:#fff; line-height:22px;}
 .m13 .b{border:1px solid #cccccc; background:#F7F7F7; padding:7px 0 7px 16px;}
+.m13 li{height:26px; overflow:hidden;}
+.m14 li{height:26px; overflow:hidden;}
 /*-------------------留言m15--------------------------*/
 .m15 .b div{margin-top:10px;}
 .m15 label{color:#7F7F7F;}
@@ -325,7 +333,7 @@ body{background:#EAE8E9;}
 .m17 .hr{right:18px;}
 .m17 h2{color:#fff; padding-left:12px;}
 .m17 .b{padding:8px 0 14px 10px;}
-.m17 li{line-height:24px; font-size:12px;}
+.m17 li{line-height:24px; font-size:12px; height:24px; overflow:hidden;}
 /*-------------------国防教育展播m20--------------------------*/
 .m20 .h{background:url(../img/m16-h.png) no-repeat;}
 .m20 h2{padding-left:72px;}
