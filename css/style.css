@@ -127,7 +127,7 @@ body{background:#EAE8E9;}
 #b .w{width:980px; margin:0 auto; padding:0 10px; background:#fff;}
 #h{background:url(../img/h.jpg) no-repeat center top;}
 #h .nav{padding-top:150px; height:43px; line-height:43px; background:url(../img/h-nav.png) repeat-x left 150px; text-align:center; color:#fff;font-family:'微软雅黑'; font-weight:bold;}
-#h .nav a{font-size:15px; color:#FFFFFF; padding:0 13px;}
+#h .nav a{font-size:13px; color:#FFFFFF; padding:0 13px; font-family:'宋体';}
 #b .r{margin-top:15px;}
 #b .r1{margin-top:0; padding-top:15px;}
 #b .r1 .c1{width:681px;}
@@ -159,7 +159,7 @@ body{background:#EAE8E9;}
 .ma h2{color:#323232; font-size:16px;}
 .m3 .hr{position:absolute; top:0; right:0;}
 .ma .b{padding:5px 0;}
-.m li{line-height:26px;}
+.m li{line-height:26px; height:26px; overflow:hidden;}
 .mb .h{background:url(../img/mb-h.png) no-repeat; height:55px; line-height:55px;}
 .mb h2{font-size:24px; color:#CB0000; font-family:'微软雅黑'; padding-left:93px;}
 .mc{background:#F1F1F1;}
@@ -181,10 +181,12 @@ body{background:#EAE8E9;}
 .md .hr{right:18px;}
 /*-------------------头条m1--------------------------*/
 .m1{border:1px solid #DCDCDC; text-align:center; padding:10px 0; margin-bottom:8px;}
-.m1 h2{font-size:34px; font-family:'微软雅黑'; height:62px; line-height:62px; }
+.m1 h2{font-size:34px; font-family:'微软雅黑'; height:62px; line-height:62px; overflow:hidden; }
 .m1 h2 a{color:#323232;}
 .m1 .b a{font-size:12px; margin:0 8px;}
 .m1 .l1{font-weight:bold;}
+
+.m2 li{ height:auto;}
 /*-------------------搜索m5--------------------------*/
 .m5{padding:15px 0; vertical-align:middle;}
 .m5 .txt{width:145px; font-size:12px; height:22px; line-height:12px; line-height:22px\9; margin-right:3px;}
@@ -338,7 +340,7 @@ body{background:#EAE8E9;}
 .m22{margin-bottom:15px;}
 .m22 .b{padding:5px 0 5px 3px;}
 .m22 dl{margin:3px 5px; width:50px;}
-.m22 dt{font-size:12px;}
+.m22 dt{font-size:12px; line-height:18px; height:36px; overflow:hidden;}
 .m22 dt a{color:#006EBA;}
 /*-------------------新闻m23--------------------------*/
 .m23 h2{text-align:center; line-height:42px; font-size:24px; color:#000000; font-family:'微软雅黑'; font-weight:normal;}
