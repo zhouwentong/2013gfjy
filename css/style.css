@@ -303,7 +303,7 @@ body{background:#EAE8E9;}
   cursor:pointer;
 }
 /*-------------------微话题m11--------------------------*/
-.m11 .h{background:url(../img/m13-h.png) no-repeat; height:34px;}
+.m11 .h{background:url(../img/m13-h.png) no-repeat; height:34px; margin-bottom:5px;}
 .m11 h2{padding-left:14px; color:#fff; line-height:22px;}
 /*-------------------新闻动态m12--------------------------*/
 .m12{margin-bottom:18px;}
@@ -335,7 +335,7 @@ body{background:#EAE8E9;}
 /*-------------------链接m21--------------------------*/
 .m21{padding-top:15px;background:url(../img/r9.png) no-repeat; padding-bottom:15px;}
 .m21 .b{text-align:center;}
-.m21 select{margin:0 10px;}
+.m21 select{margin:0 9px; font-size:12px;}
 /*-------------------名博专区m22--------------------------*/
 .m22{margin-bottom:15px;}
 .m22 .b{padding:5px 0 5px 3px;}
